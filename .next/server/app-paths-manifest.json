@@ -1,7 +1,0 @@
-{
-  "/(root)/about/page": "app/(root)/about/page.js",
-  "/(root)/contact/page": "app/(root)/contact/page.js",
-  "/(root)/services/page": "app/(root)/services/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
-}
