@@ -5,7 +5,7 @@ import { Phone, Mail, Car } from "lucide-react";
 import { toast } from "sonner";
 //import { useToast } from "@/hooks/use-toast";
 
-const page = () => {
+const Page = () => {
   //const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
@@ -80,7 +80,7 @@ const page = () => {
               <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
               <p className="text-body mb-8">
                 Have a question about our services or interested in a specific
-                vehicle? We'd love to hear from you. Our dedicated team is ready
+                vehicle? We&apos;d love to hear from you. Our dedicated team is ready
                 to assist you with any inquiries.
               </p>
 
@@ -364,4 +364,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

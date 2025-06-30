@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Car, Users, Wrench } from "lucide-react";
 
@@ -106,10 +107,12 @@ export default function Home() {
             {/* Vehicle Card 1 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="h-56 overflow-hidden">
-                <img
+                <Image
                   src="/images/luxury-sedan.avif"
                   alt="Luxury Sedan"
                   className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                  width={500}
+                  height={224}
                 />
               </div>
               <div className="p-6">
@@ -130,10 +133,12 @@ export default function Home() {
             {/* Vehicle Card 2 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="h-56 overflow-hidden">
-                <img
+                <Image
                   src="/images/sports-car.avif"
                   alt="Sports Car"
                   className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                  width={500}
+                  height={224}
                 />
               </div>
               <div className="p-6">
@@ -154,7 +159,7 @@ export default function Home() {
             {/* Vehicle Card 3 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="h-56 overflow-hidden">
-                <img
+                <Image
                   src="/images/range-rover-sport.jpg"
                   alt="Luxury SUV"
                   className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
@@ -211,9 +216,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="italic text-gray-600">
-                "Auto Haven USA made buying my dream car a breeze. Their team
+                &quot;Auto Haven USA made buying my dream car a breeze. Their team
                 was professional, knowledgeable, and helped me find the perfect
-                vehicle within my budget."
+                vehicle within my budget.&quot;
               </p>
               <div className="flex text-yellow-400 mt-4">
                 <span>★</span>
@@ -238,9 +243,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="italic text-gray-600">
-                "I was skeptical about buying a car online, but Auto Haven USA
+                &quot;I was skeptical about buying a car online, but Auto Haven USA
                 exceeded my expectations. The car was delivered in perfect
-                condition and exactly as described."
+                condition and exactly as described.&quot;
               </p>
               <div className="flex text-yellow-400 mt-4">
                 <span>★</span>
@@ -265,9 +270,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="italic text-gray-600">
-                "The financing options provided by Auto Haven USA were
+                &quot;The financing options provided by Auto Haven USA were
                 excellent. I got a great rate, and the paperwork was handled
-                efficiently. Couldn't be happier!"
+                efficiently. Couldn&apos;t be happier!&quot;
               </p>
               <div className="flex text-yellow-400 mt-4">
                 <span>★</span>

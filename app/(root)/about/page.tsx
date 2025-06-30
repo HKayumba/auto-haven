@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Users } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -31,7 +32,7 @@ const page = () => {
         <div className="py-16 max-w-screen-2xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img
+              <Image
                 src="images/about-showroom.avif"
                 alt="Auto Haven USA Showroom"
                 className="rounded-lg shadow-md w-full h-[500px] object-cover"
@@ -71,7 +72,7 @@ const page = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">Our Mission & Values</h2>
             <p className="text-body max-w-3xl mx-auto">
-              At Auto Haven USA, we're driven by core values that shape
+              At Auto Haven USA, we&apos;re driven by core values that shape
               everything we do.
             </p>
           </div>
@@ -152,7 +153,7 @@ const page = () => {
             {/* Team Member 1 */}
             <div className="text-center">
               <div className="relative mb-4 rounded-full overflow-hidden w-40 h-40 mx-auto">
-                <img
+                <Image
                   src="/images/team/michael-ceo.avif"
                   alt="Michael Richardson"
                   className="w-full h-full object-cover"
@@ -173,7 +174,7 @@ const page = () => {
             {/* Team Member 2 */}
             <div className="text-center">
               <div className="relative mb-4 rounded-full overflow-hidden w-40 h-40 mx-auto">
-                <img
+                <Image
                   src="images/team/sarah-od.avif"
                   alt="Sarah Johnson"
                   className="w-full h-full object-cover"
@@ -194,7 +195,7 @@ const page = () => {
             {/* Team Member 3 */}
             <div className="text-center">
               <div className="relative mb-4 rounded-full overflow-hidden w-40 h-40 mx-auto">
-                <img
+                <Image
                   src="images/team/david-hs.avif"
                   alt="David Martinez"
                   className="w-full h-full object-cover"
@@ -215,7 +216,7 @@ const page = () => {
             {/* Team Member 4 */}
             <div className="text-center">
               <div className="relative mb-4 rounded-full overflow-hidden w-40 h-40 mx-auto">
-                <img
+                <Image
                   src="images/team/emily-fm.avif"
                   alt="Emily Chen"
                   className="w-full h-full object-cover"

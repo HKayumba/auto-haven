@@ -58,7 +58,7 @@ const page = () => {
                   all paperwork and ensuring a smooth transaction.
                 </p>
                 <p className="text-body mb-6">
-                  Whether you're looking to buy or sell a vehicle, our team of
+                  Whether you&apos;re looking to buy or sell a vehicle, our team of
                   experts will guide you through every step, offering
                   competitive pricing and transparent communication throughout.
                 </p>
@@ -161,7 +161,7 @@ const page = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Our Service Process</h2>
             <p className="text-body max-w-3xl mx-auto">
-              We've streamlined our process to provide a seamless and efficient
+              We&apos;ve streamlined our process to provide a seamless and efficient
               experience from start to finish.
             </p>
           </div>
@@ -177,7 +177,7 @@ const page = () => {
               <h3 className="text-2xl font-semibold mb-3">Consultation</h3>
               <p className="text-gray-600">
                 We discuss your needs, preferences, and budget to understand
-                exactly what you're looking for.
+                exactly what you&apos;re looking for.
               </p>
             </div>
 
